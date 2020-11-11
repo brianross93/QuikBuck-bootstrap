@@ -1,0 +1,88 @@
+html,
+body,
+.view {
+  height: 100%;
+}
+
+#lookingforwordhead {
+  height: 0%
+}
+
+
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.top-nav-collapse {
+  background-color: #78909c !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #78909c !important;
+  }
+}
+
+h1 {
+  letter-spacing: 8px;
+}
+
+h5 {
+  letter-spacing: 3px;
+}
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 80px;
+}
+
+#page-header {
+    color: rgb(255, 253, 251);
+    font-size: 90px;
+    text-shadow: rgba(231, 222, 210, 0);
+    text-shadow: black;
+    
+}
+#job-cards {
+  max-width: 600px;
+  max-height: 600px;
+}
+
+#job-card-image{
+  max-width: auto;
+  max-height: 40%;
+}
+/* jumbotron css is from stack overflow */
+.jumbotron{
+  background: url("jason-dent-eB1ziPSixlQ-unsplash.jpg") no-repeat center center; 
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+#footer-content {
+  background-color: rgb(19, 189, 61);
+}

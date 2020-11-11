@@ -1,8 +1,11 @@
 html,
-body,
-header,
+body,header,
 .view {
   height: 100%;
+}
+
+#lookingforwordhead {
+  height: 0%
 }
 
 @media (max-width: 740px) {
@@ -46,5 +49,20 @@ h5 {
     font-size: 90px;
     text-shadow: rgba(231, 222, 210, 0);
     text-shadow: black;
+    
+}
+#job-cards {
+  max-width: 600px;
+  max-height: 600px;
 }
 
+#job-card-image{
+  max-width: auto;
+  max-height: 40%;
+}
+
+
+
+#footer-content {
+  background-color: rgb(19, 189, 61);
+}
