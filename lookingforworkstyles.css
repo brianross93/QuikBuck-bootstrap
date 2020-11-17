@@ -23,6 +23,7 @@ body,
     padding-bottom:50%;
     position:relative;
     height:0;
+    box-shadow: 1rem 1rem rgba(0, 0, 0, .1);
 }
 .map-responsive iframe{
     left:0;
@@ -30,6 +31,7 @@ body,
     height:100%;
     width:100%;
     position:absolute;
+    box-shadow: 1rem 1rem rgba(0, 0, 0, .1);
 }
 .top-nav-collapse {
   background-color: #78909c !important;
@@ -86,3 +88,21 @@ h5 {
 #footer-content {
   background-color: rgb(19, 189, 61);
 }
+
+.map-container-7{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    display: block;
+    box-shadow: 1rem 1rem rgba(0, 0, 0, .1);
+   
+    }
+    .map-container-7 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    box-shadow: 1rem 1rem rgba(0, 0, 0, .1);
+    }
